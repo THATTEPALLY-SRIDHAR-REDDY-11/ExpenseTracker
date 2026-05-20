@@ -6,7 +6,7 @@ import {
   extractExpenseFromImage,
   generateSpendingInsights,
   safeUnlinkUpload,
-} from './services/gemini.js';
+} from './services/groq.js';
 
 const upload = multer({
   storage: multer.memoryStorage(),
